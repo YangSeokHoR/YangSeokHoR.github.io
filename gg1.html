@@ -3,10 +3,33 @@
 <style type="text/css">
 	.a1{
 		font-size: 40px;
+		animation-name: color;
+		animation-duration: 7s;
+		animation-iteration-count: infinite;
 	}
 	.a2{
 		font-size: 25px;
 	}
+	@keyframes color{
+		15%{color: red;}
+		30%{color: orange;}
+		45%{color: yellow;}
+		60%{color: green;}
+		75%{color: blue;}
+		90%{color: navy;}
+		100%{color: purple;}
+	}
+	@keyframes Animation{
+		0%{width: 800pxl; height: 300px;}
+		50%{width: 832px; height: 318px;}
+		100%{width: 800pxl; height: 300px;}
+	}
+	img{
+		animation-name: Animation;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+	}
+
 </style>
 <head>
 	<title></title>
